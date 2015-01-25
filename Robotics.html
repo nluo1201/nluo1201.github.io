@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Robotics ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Robotic Club at Edison High School</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+          <h1 id="project_title">Robotic Club at Edison High School</h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+    
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h4>
+			
+<a id="Member" class="anchor" href="#member" aria-hidden="true"><span class="octicon octicon-link"></span></a>Member:</h4>
+
+<p align ="center"> <img src ="/profile/profile.jpg" width = "200" height = "200" </p>
+
+<p>I was one of the members of Edison High school's Robotics Club in 2012.
+	I was one among the 3 selected drivers to participate in the First Robotics Competition.
+	We build a robot that was capable of avoiding obstacles, passing through ramps, and shooting
+	basketballs. With the help from Graco's engineers, I learned to program directional components in LabView.
+</p>
+
+<h4>
+<a id="Mentor" class="anchor" href="#memtor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mentor:</h4>
+
+<p>From 2014 until now, I had became one of the mentor there at Edison. I helped high school students learn how to build the robot using their existence knowledge in mathematics and physics.</p>
+
+
+<script src="Robotics/getimages.php"></script>
+
+<script type="text/javascript">
+
+var curimg=0
+function rotateimages(){
+document.getElementById("slideshow").setAttribute("src", "pics/"+galleryarray[curimg])
+curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
+}
+
+window.onload=function(){
+setInterval("rotateimages()", 2500)
+}
+</script>
+
+<div style="width: 170px; height: 160px">
+<img id="slideshow" src="pics/bear.gif" />
+</div>
+
+
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
