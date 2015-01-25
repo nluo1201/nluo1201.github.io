@@ -41,13 +41,13 @@
 
 <p>From 2014 until now, I had became one of the mentors there at Edison. I helped high school students learn how to build the robot using their existence knowledge in mathematics and physics.</p>
 
-<script src="Robotics/ getimages.php"></script>
+<script src="Robotics/getimages.php"></script>
 
 <script type="text/javascript">
 
 var curimg=0
 function rotateimages(){
-document.getElementById("slideshow").setAttribute("src", "Robotics /"+galleryarray[curimg])
+document.getElementById("slideshow").setAttribute("src", +galleryarray[curimg])
 curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
 }
 
