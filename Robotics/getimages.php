@@ -23,7 +23,7 @@ return($files);
 }
 
 echo 'var galleryarray=new Array();'; //Define array in JavaScript
-returnimages();
+returnimages()
 //Output the array elements containing the image file names
 // Source: http://www.javascriptkit.com/javatutors/externalphp2.shtml
 ?>
