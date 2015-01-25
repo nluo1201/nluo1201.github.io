@@ -5,7 +5,7 @@ Header("content-type: application/x-javascript");
 //This function gets the file names of all images in the current directory
 //and ouputs them as a JavaScript array
 function returnimages($dirname=".") {
-$pattern="(\.jpg$)|(\.png$)|(\.jpge$)|(\.gif$)"; //valid image extensions
+$pattern="(\.jpg$)|(\.png$)|(\.jpeg$)|(\.gif$)"; //valid image extensions
 $files = array();
 $curimage=0;
 if($handle = opendir($dirname)) {
@@ -23,7 +23,5 @@ return($files);
 }
 
 echo 'var galleryarray=new Array();'; //Define array in JavaScript
-returnimages()
-//Output the array elements containing the image file names
-// Source: http://www.javascriptkit.com/javatutors/externalphp2.shtml
-?>
+returnimages() //Output the array elements containing the image file names
+?> 

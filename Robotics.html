@@ -37,7 +37,7 @@
 </p>
 
 <h4>
-<a id="Mentor" class="anchor" href="#memtor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mentor:</h4>
+<a id="Mentor" class="anchor" href="#mentor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mentor:</h4>
 
 <p>From 2014 until now, I had became one of the mentor there at Edison. I helped high school students learn how to build the robot using their existence knowledge in mathematics and physics.</p>
 
@@ -47,12 +47,12 @@
 
 var curimg=0
 function rotateimages(){
-document.getElementById("slideshow").setAttribute("src", galleryarray[curimg])
+document.getElementById("slideshow").setAttribute("src", "Robotics/"+ galleryarray[curimg])
 curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
 }
 
 window.onload=function(){
-setInterval("rotateimages()", 1500)
+setInterval("rotateimages()", 2000)
 }
 </script>
 
