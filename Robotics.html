@@ -39,7 +39,7 @@
 <h4>
 <a id="Mentor" class="anchor" href="#memtor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mentor:</h4>
 
-<p>From 2014 until now, I had became one of the mentors there at Edison. I helped high school students learn how to build the robot using their existence knowledge in mathematics and physics.</p>
+<p>From 2014 until now, I had became one of the mentor there at Edison. I helped high school students learn how to build the robot using their existence knowledge in mathematics and physics.</p>
 
 <script src="Robotics/getimages.php"></script>
 
@@ -47,7 +47,7 @@
 
 var curimg=0
 function rotateimages(){
-document.getElementById("slideshow").setAttribute("src", +galleryarray[curimg])
+document.getElementById("slideshow").setAttribute("src", galleryarray[curimg])
 curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
 }
 
@@ -56,17 +56,18 @@ setInterval("rotateimages()", 1500)
 }
 </script>
 
-<img id="slideshow" src="/Robotics/ (1).JPG">
+<div style="width: 170px; height: 160px">
+<img id="slideshow" src="Robotics/1.jpg">
+</div>
+
+
+
+
 
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+
 
     
 
