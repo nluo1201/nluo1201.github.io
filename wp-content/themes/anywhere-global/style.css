@@ -1008,11 +1008,11 @@ a:active {
 .home-slider-block h3 {
     color: black;
 	font-family: "Teko", sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     letter-spacing: 2px;
     margin: 0 0 8px;
     padding: 0; 
-    text-transform: uppercase;
+    
 	text-shadow: 
 			0 1px 0 white,
 			2px 0 0 white,
